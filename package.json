@@ -1,0 +1,16 @@
+{
+  "name": "bytecounty-website-backend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Serverless API for the Byte County website (consultation form email). Deployed on Vercel.",
+  "scripts": {
+    "dev": "node --env-file=.env dev-server.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "nodemailer": "6.9.15"
+  }
+}
